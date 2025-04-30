@@ -18,7 +18,19 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
+            {/* Trinaya Tech */}
+            <img
+  src="img/logo.png"
+  className="img-responsive"
+  alt="Trinaya Tech Logo"
+  style={{ height: "200px", marginTop: "-85px" }}
+/>
+            {/* <img
+              src="img/01.jpg" // replace with the path to your logo
+              // alt="Trinaya Tech Logo"
+              // style={{ height: "40px" }} // You can adjust the height based on your design
+            /> */}
+            {/* <img src="img/logo.png" className="img-responsive" alt="" style={{height: "800%", marginBottom: "200%"}} />{" "} */}
           </a>{" "}
         </div>
 
@@ -42,21 +54,26 @@ export const Navigation = (props) => {
                 Services
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#portfolio" className="page-scroll">
                 Gallery
               </a>
-            </li>
+            </li> */}
+            {/* <li>
+              <a href="#portfolio" className="page-scroll">
+                PhaseFlow
+              </a>
+            </li>  */}
             <li>
               <a href="#testimonials" className="page-scroll">
                 Testimonials
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#team" className="page-scroll">
                 Team
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#contact" className="page-scroll">
                 Contact
@@ -68,3 +85,52 @@ export const Navigation = (props) => {
     </nav>
   );
 };
+
+
+ // "Gallery": [
+  //   {
+  //     "title": "Project Title",
+  //     "largeImage": "img/portfolio/01-large.jpg",
+  //     "smallImage": "img/portfolio/01-small.jpg"
+  //   },
+  //   {
+  //     "title": "Project Title",
+  //     "largeImage": "img/portfolio/02-large.jpg",
+  //     "smallImage": "img/portfolio/02-small.jpg"
+  //   },
+  //   {
+  //     "title": "Project Title",
+  //     "largeImage": "img/portfolio/03-large.jpg",
+  //     "smallImage": "img/portfolio/03-small.jpg"
+  //   },
+  //   {
+  //     "title": "Project Title",
+  //     "largeImage": "img/portfolio/04-large.jpg",
+  //     "smallImage": "img/portfolio/04-small.jpg"
+  //   },
+  //   {
+  //     "title": "Project Title",
+  //     "largeImage": "img/portfolio/05-large.jpg",
+  //     "smallImage": "img/portfolio/05-small.jpg"
+  //   },
+  //   {
+  //     "title": "Project Title",
+  //     "largeImage": "img/portfolio/06-large.jpg",
+  //     "smallImage": "img/portfolio/06-small.jpg"
+  //   },
+  //   {
+  //     "title": "Project Title",
+  //     "largeImage": "img/portfolio/07-large.jpg",
+  //     "smallImage": "img/portfolio/07-small.jpg"
+  //   },
+  //   {
+  //     "title": "Project Title",
+  //     "largeImage": "img/portfolio/08-large.jpg",
+  //     "smallImage": "img/portfolio/08-small.jpg"
+  //   },
+  //   {
+  //     "title": "Project Title",
+  //     "largeImage": "img/portfolio/09-large.jpg",
+  //     "smallImage": "img/portfolio/09-small.jpg"
+  //   }
+  // ],

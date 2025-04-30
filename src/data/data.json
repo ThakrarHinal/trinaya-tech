@@ -1,184 +1,207 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Build. Automate. Scale.",
+    "paragraph": "Turning bold ideas into scalable tech - in 30 days or less.",
+    "paragraph1": "We support organizations at every growth phase - from early-stage bootstrapping to building and scaling long-term, enterprise-grade systems and applications. "
   },
-  "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ]
+ "About": [
+  {
+    "title": "Our Mission",
+    "content":
+      "We know that finding dependable, high-quality development talent can be difficult. We founded Two Lights to help founders find top-flight talent at competitive rates. You come with the idea and our team will find a way to make it a reality, without breaking the bank."
   },
-  "Gallery": [
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
-    }
-  ],
+  {
+    "title": "Our Approach",
+    "content":
+      "We provide best-in-class support from start to finish. We work directly with you to help define your development needs, connect you with our pipeline of qualified software development teams, and handle all the logistics."
+  },
+  {
+    "title": "Our Talent",
+    "content":
+      "We work with highly qualified, rigorously vetted developers active during U.S. business hours. Our standard teams come staffed with a Project Manager, a QA, and a mix of full-stack senior and junior developers proficient in a variety of programming languages."
+  }
+],
   "Services": [
     {
+      "name": "Omni-channel AI Integration & Automation",
+      "icon": "fa fa-cogs", 
+      "deliverables": [
+        "GPT/Claude chatbots (sales, support)",
+        "Robotic Process Automation (UiPath, Python scripts)",
+        "Predictive dashboards & analytics",
+        "Document summarization / OCR pipelines"
+      ],
+      "techStack": [
+        "OpenAI GPT-4o",
+        "Anthropic Claude 3",
+        "LangChain",
+        "Pinecone",
+        "TensorFlow",
+        "UiPath",
+        "Azure OpenAI",
+        "AWS Bedrock",
+        "Kafka",
+        "Airflow",
+        "Docker",
+        "Kubernetes"
+      ],
+      "verticals": [
+        "Accounting workflow bots",
+        "Hotel concierge chatbots",
+        "E-commerce recommenders",
+        "Healthcare intake automation"
+      ]
+    },
+    {
+      "name": "SEO & Content Marketing",
+      "icon": "fa fa-search", 
+      "deliverables": [
+        "Technical SEO audits & schema",
+        "Topic clusters, blogs, landing pages",
+        "Keyword research & on-page optimisation",
+        "Back-link outreach & digital PR"
+      ],
+      "techStack": [
+        "Ahrefs",
+        "SEMrush",
+        "Surfer SEO",
+        "Screaming Frog",
+        "Google Analytics 4",
+        "Webflow CMS",
+        "Markdown/MDX",
+        "HubSpot",
+        "Adobe XD"
+      ],
+      "verticals": [
+        "Real-Estate lead pages",
+        "Hotel local SEO",
+        "E-commerce category copy",
+        "Healthcare authority blogs"
+      ]
+    },
+    {
+      "name": "Web Development",
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "deliverables": ["Website Design", "Frontend Development", "Backend Development"],
+      "techStack": ["React", "Node.js", "Express", "MongoDB"],
+      "verticals": ["E-commerce", "Finance", "Education"]
     },
     {
+      "name": "Mobile App Development",
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "deliverables": [
+        "Cross-platform apps",
+        "Offline support",
+        "Push Notifications"
+      ],
+      "techStack": ["Flutter", "React Native", "Firebase"],
+      "verticals": ["Healthcare", "Logistics", "Travel"]
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Custom Software & Business Automation",
+      "icon": "fa fa-cogs", 
+      "deliverables": [
+        "Bespoke ERP/CRM modules",
+        "Workflow orchestration & microservices",
+        "API integrations (Stripe, Twilio, Plaid)",
+        "CI/CD, test automation, DevOps as code"
+      ],
+      "techStack": [
+        ".NET 6/7",
+        "Spring Boot",
+        "Node.js",
+        "Go",
+        "RabbitMQ",
+        "Redis",
+        "PostgreSQL",
+        "MongoDB",
+        "Terraform",
+        "GitHub Actions",
+        "Azure DevOps",
+        "Kubernetes"
+      ],
+      "verticals": [
+        "Accounting dashboards",
+        "Hotel operations suites",
+        "Real-estate CRMs",
+        "Supply-chain management"
+      ]
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "E-commerce Solutions",
+      "icon": "fa fa-shopping-cart", 
+      "deliverables": [
+        "Headless storefronts & PWAs",
+        "Secure payment, tax & shipping integrations",
+        "Inventory sync & ERP connectors",
+        "Performance optimisation & A/B testing"
+      ],
+      "techStack": [
+        "Shopify Hydrogen",
+        "Saleor",
+        "Medusa.js",
+        "Magento 2",
+        "WooCommerce",
+        "Stripe",
+        "PayPal",
+        "Algolia",
+        "AWS CloudFront",
+        "Vercel"
+      ],
+      "verticals": [
+        "B2C & B2B retail",
+        "Hospitality upsell portals",
+        "Healthcare DME shops"
+      ]
     }
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "img": "img/client.png",
+      "text": "\"Since partnering with Trinaya Tech, we've streamlined our workflows and seen a 30% boost in productivity.\"",
       "name": "John Doe"
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "img": "img/client.png",
+      "text": "\"The automation solutions provided by Trinaya Tech are game-changers. We couldn't be happier.\"",
       "name": "Johnathan Doe"
     },
     {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "img": "img/client.png",
+      "text": "\"Trinaya Tech is very professional and deliver good result.\"",
       "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
     }
   ],
-  "Team": [
-    {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
-    },
-    {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
-    }
-  ],
+ 
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": " New York Metropolitan Area, New York;  Ahmedabad, India",
+    "phone": " +1 (201) 401-8310",
+    "email": " info@trinayatech.com",
+    "linkedIn": "https://www.linkedin.com/company/trinaya-tech/posts/?feedView=all"
   },
-  "Features": [
+ 
+
+  "Features" : [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Scope your Needs",
+      "description": "You provide us with a description of your project and requirements. Our tech leads will scope these into a cohesive project plan."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Sign Some Documents",
+      "description": "After scoping your needs, we use our pricing tool to give a transparent quote. Upon acceptance, we send over a contract."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Staff and Plan",
+      "description": "We will staff your team using our talent pipeline and begin initial project planning and development."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Execute Project",
+      "description": "Together, we build your product while openly communicating throughout development to ensure quality and milestones."
+    },
+    {
+      "title": "Receive Your Product",
+      "description": "Upon delivery, we ensure satisfaction and transfer all knowledge to the internal team."
     }
   ]
+  
 }

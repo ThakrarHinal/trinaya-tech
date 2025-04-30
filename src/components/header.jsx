@@ -1,24 +1,36 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import "../App.css";
 
-export const Header = (props) => {
+export const Header = ({ data }) => {
+  const [animate, setAnimate] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setAnimate(true);
+    }, 500);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
-    <header id="header">
+    <header id="header" className="hero-section">
       <div className="intro">
-        <div className="overlay">
+        <div className={`overlay ${animate ? "show" : ""}`}>
           <div className="container">
             <div className="row">
-              <div className="col-md-8 col-md-offset-2 intro-text">
-                <h1>
-                  {props.data ? props.data.title : "Loading"}
-                  <span></span>
+              <div className="col-md-12 intro-text">
+                <h1 className="fade-in-up hero-text">
+                  {data ? data.title : "Loading..."}
                 </h1>
-                <p>{props.data ? props.data.paragraph : "Loading"}</p>
-                <a
-                  href="#features"
-                  className="btn btn-custom btn-lg page-scroll"
-                >
+                <p className="fade-in-up delay-1">
+                  {data ? data.paragraph : "Please wait..."}
+                </p>
+                <p className="fade-in-up delay-1">
+                  {data ? data.paragraph1 : "Please wait..."}
+                </p>
+                <a href="#features" className="btn-custom fade-in-up delay-2">
+                  {/* {data ? data.button : "Explore"} */}
                   Learn More
-                </a>{" "}
+                </a>
               </div>
             </div>
           </div>
