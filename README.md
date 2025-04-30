@@ -1,0 +1,1 @@
+# trinaya-tech
