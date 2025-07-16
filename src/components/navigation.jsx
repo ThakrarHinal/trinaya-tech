@@ -69,6 +69,10 @@ export const Navigation = (props) => {
                 Testimonials
               </a>
             </li>
+            <li>
+  <a href="https://whyagenticai.substack.com/" className="page-scroll" target="_blank" rel="noopener noreferrer">Blogs</a>
+</li>
+
             {/* <li>
               <a href="#team" className="page-scroll">
                 Team
